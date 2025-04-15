@@ -4,9 +4,9 @@ const app = express();
 const port = 8888;
 
 // Credenciais do Spotify
-const clientId = '89e5e68415ab42638fe2facb05bd9d56';
-const clientSecret = '6c47314f322b44d4ab0bee448b082156';
-const redirectUri = 'https://1f61-2804-41b8-22e-ef00-adc0-d119-1c23-f799.ngrok-free.app/callback';
+const clientId = 'SEU CLIENT ID AQUI';
+const clientSecret = 'SEU CLIENT SECRET AQUI';
+const redirectUri = 'https://1f61-2804-41b8-22e-ef00-adc0-d119-1c23-f799.ngrok-free.app/callback'; //TODA VEZ QUE VOCÊ INICIA O NGROK ELE TE FORNECE UMA URI DIFERENTE, ESSA NÃO TEM MAIS VALIDADE!
 
 const spotifyApi = new SpotifyWebApi({
     clientId: clientId,
