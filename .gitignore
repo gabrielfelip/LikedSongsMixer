@@ -1,0 +1,8 @@
+# Ignorar pastas de dependências e builds
+node_modules/
+dist/
+build/
+
+# Outros arquivos de log ou sistema
+*.log
+*.DS_Store
