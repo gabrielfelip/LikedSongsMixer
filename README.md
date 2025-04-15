@@ -85,7 +85,7 @@ Se o processo for bem-sucedido, a playlist é criada e o sistema retorna uma men
    ```bash
    git clone https://github.com/gabrielfelip/LikedSongsMixer.git
 
-   cd seu-repositorio
+   cd LikedSongsMixer
    
 # 2. **Instale as dependências**
 
